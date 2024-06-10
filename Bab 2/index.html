@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>HubungiKu</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="image/support.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="bx bx-x" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#services">Fitur Utama</a></li>
+            <li><a href="#about-us">Layanan yang Ditawarkan</a></li>
+            <li><a href="#about-us">Testimoni Pelanggan</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </div>
+        <i class="bx bx-menu" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>HubungiKu - Pusat Hubungan Pelanggan</h1>
+        <p>
+          HubungiKu adalah pusat hubungan pelanggan yang menyediakan layanan
+          yang ramah, responsif, dan efisien untuk memastikan kepuasan pelanggan
+          Anda. Temukan solusi cepat dan mudah untuk pertanyaan Anda dan
+          jadwalkan layanan yang diperlukan dengan mudah melalui platform kami.
+        </p>
+        <a href="" class="hero-btn">Untuk Info Lebih Lanjut</a>
+      </div>
+    </section>
+
+    <!-- Our Services -->
+
+    <section class="services" id="services">
+      <h1>Fitur Utama</h1>
+      <div class="row">
+        <div class="course-col">
+          <h3>Layanan 1</h3>
+          <p>
+            Layanan dukungan 24/7. <br />
+            Layanan dukungan telepon <br />
+            Layanan email
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Layanan 2</h3>
+          <p>
+            Chat langsung dengan agen. <br />
+            Chat langsung
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Layanan 3</h3>
+          <p>
+            Sistem tiket untuk penanganan masalah. <br />
+            Formulir dukungan online
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--- Informasi --->
+    <section class="testimonials">
+      <h1>Testimoni Pelanggan</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, illo?
+      </p>
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="image/user.png" alt="" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+              sunt quisquam alias repudiandae molestias rerum, libero debitis
+              consectetur quasi provident minus, praesentium tempora a delectus?
+            </p>
+            <h3>Anonim 1</h3>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="image/user.png" alt="" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+              sunt quisquam alias repudiandae molestias rerum, libero debitis
+              consectetur quasi provident minus, praesentium tempora a delectus?
+            </p>
+            <h3>Anonim 2</h3>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us + Contact -->
+
+    <section class="about-us" id="about-us">
+      <h1>About Us</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi eligendi
+        tempora deserunt. Vel tempora expedita maiores laudantium accusamus
+        iusto, eum minus sunt! Aut magnam nemo accusamus earum impedit delectus
+        quisquam?
+      </p>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <h4>© 2024 HubungiKu. All rights reserved.</h4>
+      <div class="icons">
+        <i class="bx bxl-facebook"></i>
+        <i class="bx bxl-instagram"></i>
+        <i class="bx bxl-linkedin"></i>
+      </div>
+    </section>
+
+    <!-- Javascript -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
